@@ -1,0 +1,97 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: 200% 200%;
+    animation: gradientShift 15s ease infinite;
+    background-size: cover;
+}
+
+.square{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.input-text{
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.651);
+    border: 2px solid black;
+}
+
+.div-button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.button-default{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(255, 221, 0);
+    color: black;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+
+}
+
+.button-default:hover{
+    opacity: 0.8;
+}
+
+.button-default:active{
+    border: none;
+}
+
+@media (max-width:500px){
+    .div-button{
+        flex-direction: column;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
