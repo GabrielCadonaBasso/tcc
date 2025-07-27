@@ -79,6 +79,10 @@ h1{
     cursor: pointer;
 }
 
+.msg-Erro{
+    color: red;
+}
+
 .button-default:hover{
     opacity: 0.8;
 }
