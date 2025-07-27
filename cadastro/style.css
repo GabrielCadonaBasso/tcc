@@ -63,6 +63,9 @@ h1{
     width: 100%;
     max-width: 300px;
 }
+.link{
+    width: 100%;
+}
 
 .button-default{
     border: none;
@@ -74,7 +77,6 @@ h1{
     font-weight: bolder;
     border-bottom: 2px solid black;
     cursor: pointer;
-
 }
 
 .button-default:hover{

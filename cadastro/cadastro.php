@@ -18,10 +18,12 @@
             <input type="password" name="" id="" placeholder="senha" class="input-text">
 
             <div class="div-button">
-                <a href="../login/login.php" class="link">
+                <a href="" class="link">
                     <button type="button" class="button-default">cadastrar</button>
                 </a>
-                <button type="button" class="button-default"><a href="../login/login.php" class="link">voltar</a></button>
+                <a href="../login/login.php" class="link">
+                    <button type="button" class="button-default">voltar</button>
+                </a>
             </div>
         </form>
     </div>

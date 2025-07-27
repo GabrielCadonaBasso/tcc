@@ -17,8 +17,12 @@
             <input type="password" name="" id="" placeholder="senha" class="input-text">
 
             <div class="div-button">
-                <button type="button" class="button-default">logar</button>
-                <button type="button" class="button-default">cadastrar</button>
+                <a href="" class="link">
+                    <button type="button" class="button-default">logar</button>
+                </a>
+                <a href="../cadastro/cadastro.php" class="link">
+                    <button type="button" class="button-default">cadastrar</button>
+                </a>
             </div>
         </form>
     </div>

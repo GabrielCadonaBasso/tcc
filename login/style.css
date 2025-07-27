@@ -77,6 +77,10 @@ h1{
 
 }
 
+.link{
+    width: 100%;    
+}
+
 .button-default:hover{
     opacity: 0.8;
 }
