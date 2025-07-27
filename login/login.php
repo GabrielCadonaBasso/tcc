@@ -10,6 +10,8 @@
     <?php
         include_once '../functions.php';
 
+        verificaSessaologin();
+
         if ($_SERVER['REQUEST_METHOD'] === 'POST'){
             $email_user = $_POST['email_user'] ?? '';
             $password_user = $_POST['password_user'] ?? ''; 

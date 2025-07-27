@@ -12,6 +12,8 @@
     ?>
 </head>
 <body>
-    
+    <a href="../logout/logout.php">
+        <button name="button-sair">sair</button>
+    </a>
 </body>
 </html>

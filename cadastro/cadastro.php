@@ -9,6 +9,8 @@
     <?php
         require_once '../functions.php';
         
+        verificaSessaologin();
+        
         if ($_SERVER['REQUEST_METHOD'] === 'POST'){
             $name_user  = $_POST['name_user'] ?? '';
             $email_user = $_POST['email_user'] ?? '';

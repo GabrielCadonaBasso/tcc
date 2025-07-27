@@ -70,6 +70,19 @@ function iniciaSessao($email_user, $password_user){
     $_SESSION['password_user'] = $password_user;
 }
 
+function finalizaSessao(){
+    if(isset($_SESSION['email_user']) && isset($_SESSION['password_user'])){
+        session_destroy();
+        header('Location: ../login/login.php');    
+    }
+}
+
+function verificaSessaologin(){
+    if(isset($_SESSION['email_user']) && isset($_SESSION['password_user'])){
+        header('Location: ../pagina_inicial/pagina_inicial.php');    
+    }
+}
+
 function verificaSessao(){
     if(!isset($_SESSION['email_user']) && !isset($_SESSION['password_user'])){
         header('Location: ../login/login.php');
