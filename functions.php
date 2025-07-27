@@ -1,5 +1,6 @@
 <?php
 $msgErro = "";
+session_start();
 
 function conectarBanco() {
     $host = 'localhost';
@@ -62,6 +63,17 @@ function apresentaErro($msgErro){
     if ($msgErro !== "") {
         echo "<p class='msg-Erro'>$msgErro</p>";
     }  
+}
+
+function iniciaSessao($email_user, $password_user){
+    $_SESSION['email_user'] = $email_user;
+    $_SESSION['password_user'] = $password_user;
+}
+
+function verificaSessao(){
+    if(!isset($_SESSION['email_user']) && !isset($_SESSION['password_user'])){
+        header('Location: ../login/login.php');
+    }
 }
 
 ?>
