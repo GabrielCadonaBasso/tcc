@@ -17,7 +17,7 @@
             $password_user = $_POST['password_user'] ?? ''; 
         
             if(!$email_user || !$password_user){
-                echo "Preencha todos os campos.";
+                $msgErro = "Preencha todos os campos.";
                 exit;
             }
 
@@ -50,8 +50,8 @@
         ?>
 
         <form action="" class="form-login" method="POST">
-            <input type="email" name="email_user" id="" placeholder="e-mail" class="input-text">
-            <input type="password" name="password_user" id="" placeholder="senha" class="input-text">
+            <input type="email" name="email_user" id="" placeholder="e-mail" class="input-text" required>
+            <input type="password" name="password_user" id="" placeholder="senha" class="input-text" required>
 
             <div class="div-button">
                 <a href="" class="link">
