@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
     background-image: url('background.jpg');
     background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -64,6 +66,28 @@ nav {
     height: 3px;
     background-color: white;
     margin: 4px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    min-height: calc(100vh - 60px); /* ajusta altura tirando o tamanho da navbar */
+}
+
+.square{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: 800px;
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    margin: 20px;
 }
 
 @media (max-width: 768px) {

@@ -30,6 +30,12 @@
         <a href="../logout/logout.php"><button class="logout">Sair</button></a>
     </nav>
 
+    <div class="container">
+        <div class="square">
+            
+        </div>
+    </div>
+
     <script>
         function toggleMenu() {
             document.getElementById("menu").classList.toggle("active");

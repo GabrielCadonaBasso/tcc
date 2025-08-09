@@ -83,6 +83,12 @@ function verificaSessaologin(){
     }
 }
 
+function verificaSessaoIndex(){
+    if(isset($_SESSION['email_user']) && isset($_SESSION['password_user'])){
+        header('Location: pagina_inicial/pagina_inicial.php');    
+    }
+}
+
 function verificaSessao(){
     if(!isset($_SESSION['email_user']) && !isset($_SESSION['password_user'])){
         header('Location: ../login/login.php');

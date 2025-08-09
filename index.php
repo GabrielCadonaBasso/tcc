@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem-Vindo</title>
     <link rel='stylesheet' href="style.css"/>
+    <?php
+        include_once 'functions.php';
+
+        verificaSessaoIndex();
+    ?>
 </head>
 <body>
     <section id="principal">
