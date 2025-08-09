@@ -23,8 +23,8 @@
         </div>
 
         <div class="menu" id="menu">
-            <a href="#home" class="metas">METAS</a>
-            <a href="../cadastro_metas/cadastro_metas.php" class="cadastrar-metas">CADASTRAR META</a>
+            <a href="../pagina_inicial/pagina_inicial.php" class="metas">METAS</a>
+            <a href="#home" class="cadastrar-metas">CADASTRAR META</a>
         </div>
 
         <a href="../logout/logout.php"><button class="logout">Sair</button></a>
