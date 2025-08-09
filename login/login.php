@@ -55,10 +55,10 @@
 
             <div class="div-button">
                 <a href="" class="link">
-                    <button type="submit" class="button-default">logar</button>
+                    <button type="submit" class="button-default">Logar</button>
                 </a>
                 <a href="../cadastro/cadastro.php" class="link">
-                    <button type="button" class="button-default">cadastrar</button>
+                    <button type="button" class="button-default">Cadastrar</button>
                 </a>
             </div>
         </form>
